@@ -1,0 +1,14 @@
+-- database: ./zapateria.db
+
+SELECT * FROM "table-name";
+
+-- RELLENADO DE DATOS
+INSERT OR REPLACE INTO PRODUCTS (
+    id_producto, id_marca, id_modelo,id_codigo,categoria, sub_categoria, 
+    descripcion,genero, color, tallas, cantidad_disponible, 
+    precio, id_proveedor, clave_proveedor, fecha_entrada
+)
+VALUES
+
+(22,'Panam','50005',600005,'tenis casual','urbano','uso diario','caballero','blanco','26-29',11,899.90,'prov-505','RT7890','03-11-2025')
+;
