@@ -1,4 +1,4 @@
-# data-shoe-BI
+# inventario-BI
 proyecto de inventario calzado (data_shoe)
 
 Proyecto de análisis de inventario desarrollado con:
